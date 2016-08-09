@@ -1,0 +1,129 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+
+@tclick-color: #003f82;
+
+.top-corner {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.bottom-corner {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+
+.reveal iframe {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.reveal .slides > section {
+	background-color: #003e63;
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+	line-height: 1.5em;
+	border: 6px solid rgba(255,255,255,0.1);
+	font-weight: 600;
+	font-size: 36px;
+	padding: 50px 80px;
+	width: 1000px;
+	height: 680px;
+	text-align: left;
+
+	p {
+		font-weight: normal;
+		font-size: 28px;
+		margin-left: 20px;
+	}
+
+	ul li {
+		font-weight: normal;
+		font-size: 28px;
+		padding: 0px 20px;
+	}
+
+	ul.compact-list li {
+		font-size: 24px;
+		padding: 0px;
+		margin: 0px;
+		line-height: 1.6em;
+	}
+
+	img {
+		width: 500px;
+		border-radius: 5px;
+		border: none;
+		background: none;
+		float: right;
+	}
+}
+
+.reveal .slides > section.no-padding {
+	padding: 0px;
+}
+
+.reveal .slides > section.chatbot {
+	background-color: #4d7e65;
+}
+
+.reveal .slides > section.elk {
+	background-color: rgb(128, 124, 0);
+}
+
+.reveal .slides > section.fit-screen {
+	border: none;
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	font-size: 24px;
+	background-color: white;
+
+	.title {
+		margin: 30px 50px;
+	}
+
+	.logo {
+		position: absolute;
+		bottom: 35px;
+		right: 120px;
+		left: auto;
+		width: 250px;
+		box-shadow: none;
+	}
+}
+
+.reveal .progress span {
+	background: @tclick-color;
+}
+
+.logo {
+	position: absolute;
+	bottom: 20px;
+	left: 0px;
+	width: 250px;
+}
+
+.tag {
+	display: inline-block;
+	width: 400px;
+}
+
+#outro {
+	background: transparent;
+	user-select: none;
+	border: none;
+	text-align: center;
+	padding-top: 200px;
+
+	-webkit-user-select: none;  /* Chrome 49+ */
+	-moz-user-select: none;     /* Firefox 43+ */
+	-ms-user-select: none;      /* No support yet */
+	user-select: none;          /* Likely future */  
+}

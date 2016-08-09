@@ -2,23 +2,359 @@
 <html>
 <head>
 	<title>TraveClick Summer Internship Presentation</title>
-	<link rel="stylesheet" type="text/less" href="./styles.less" />
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/reveal.css" />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/theme/black.css" />
+	<link rel="stylesheet/less" type="text/css" href="./styles.less" />
+	<link rel="stylesheet" type="text/css" href="css/fireworks.css">
 </head>
 <body>
 
 
 	<div class="reveal">
 		<div class="slides">
-			<section>Slide 1</section>
-			<section>Slide 2</section>
+			<img src="images/travelclick-white.png" class="logo" />
+
+			<section class="fit-screen" data-transition="zoom" data-transition-speed="slow">				
+				<svg viewbox="0 0 100 100" width="100%" class="top-corner">
+					<polygon points="0,0 100,0 100,5 0,15" style="fill: #003f82;" />
+				</svg>
+
+				<div class="top-corner title">
+					KONSTANTINOS TSAKAS<br />
+					Reservations Architectures Solutions Intern<br />
+					Final Presentation
+				</div>
+
+				<img src="images/travelclick-white.png" class="logo" />
+
+				<svg viewbox="0 0 100 100" width="100%" class="bottom-corner" style="z-index: -1;">
+					<polygon points="0,95 0,100 100,100 100,85" style="fill: #003f82;" />
+				</svg>
+			</section>
+
+			<section class="frame">
+				FACTS ABOUT ME<br />
+				
+				<img src="images/intern-of-week.jpg" style="display: inline;" />
+
+				<br />
+
+				<p>
+					Greek father <br /><br />
+					German mother <br /><br />
+					2 siblings <br /><br />
+					I can eat a lot! <br /><br />
+					My first skyscraper!
+				</p>
+			</section>
+
+			<section class="no-padding">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3186953.2653470943!2d21.694622976655463!3d38.734817329647235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135beb2e6fc70ceb%3A0x100bd2ce2b9c5f0!2sEpirus%2C+Greece!5e0!3m2!1sen!2sus!4v1470630238117" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</section>
+
+			<section>
+				PRIOR SKILLS<br />
+
+				<table width="100%">
+					<tr>
+					<td>
+						<p>Programming: </p>
+						<ul>
+							<li>HTML/CSS</li>
+							<li>Javascript / NodeJS</li>
+							<li>PHP</li>
+							<li>C / C++</li>
+							<li>Golang</li>
+						</ul>
+					</td>
+					<td>
+						<p>Databases:</p>
+						<ul>
+							<li>MySQL</li>
+							<li>MongoDB</li>
+						</ul>
+					</td>
+					</tr>
+					<tr>
+					<td>
+						<ul>
+							<li>Class president in high school</li>
+							<li>Member of the HSA board at Brown</li>
+						</ul>
+					</td>
+					</tr>
+				</table>
+			</section>
+
+			<section>
+				WHY TRAVELCLICK<br />
+
+				<p>
+					I am international. <br /><br />
+
+					Awesome interview. <br /><br />
+
+					Perfect company size.
+				</p>
+
+				<br />
+
+				WHAT I LIKED<br />
+
+				<p>
+					Lunch & Learn. <br /><br />
+
+					Company activities.
+				</p>
+			</section>
+
+			<section class="chatbot">
+			CHATBOT <br /><br />
+
+			What is Big Data? <br /><br />
+
+			What is Machine Learning? <br /><br />
+
+			How are they relevant to the project? <br /><br />
+
+			Why are chatbots trending now?
+			</section>
+
+			<section class="chatbot">
+			CHATBOT <br /><br />
+
+			What platforms did we try? <br /><br />
+
+			<ul>
+				<li><div class="tag">Pandora Bots</div> (8 years old)</li>
+				<li><div class="tag">API.ai</div> (6 years old)</li>
+				<li><div class="tag">WIT.ai (aquired by Facebook)</div> (3 years old)</li>
+			</ul>
+			</section>
+
+			<section class="chatbot">
+			CHATBOT GOALS <br /><br />
+
+			<ul>
+				<li>Mix widgets with the dialog</li>
+				<li>Ability to change the context of the story</li>
+				<li>Test the limits of the platforms</li>
+				<li>Clean interface</li>
+				<li>Mobile friendly & embedable</li>
+			</ul>
+
+			<p>I achieved this through lot of trial and error...</p>
+
+			</section>
+
+			<section class="chatbot">
+			CHATBOT CHALLENGES<br />
+
+			<p>Pandora bots:</p>
+
+			<ul>
+				<li>No user interface</li>
+				<li>No knowledgebase</li>
+			</ul>
+
+			<br />
+
+			<p>API.ai:</p>
+
+			<ul>
+				<li>Extremely complex to mix stories</li>
+			</ul>
+
+			<br />
+
+			<p>Wit.ai is still young.</p>
+
+			<p>The only real limitation is the ammount of data we hold...</p>
+			</section>
+
+			<section class="chatbot">
+			CHATBOT <br /><br />
+
+			Some interesting integrations... <br /><br />
+
+			<ul>
+				<li>Watson API by IBM
+				<ul>
+					<li>Detect feelings in a message <br /> (eg. angry, happy, sad)</li>
+					<li>Is a message positive or negative?</li>
+					<li>What is the topic of conversation?</li>
+				</ul>
+				</li>
+				<li>Bing Translate by Microsoft</li>
+			</ul>
+			</section>
+
+			<section class="fit-screen">
+				<iframe width="100%" height="100%" data-src="https://wit.ai/ktsakas/withmerge/stories/d60245dc-4046-4090-8c3e-5114846380d6"></iframe>
+			</section>
+
+			<section class="elk">
+			RALLY PROJECT <br /><br />
+
+			How does the current support system work?<br />
+
+			<p>
+				A ticket is created on Salesforce.<br /><br />
+				Most probably is dies in Salesforce.<br /><br />
+				If it is a serious issue that requires fixing, it moves to Rally.<br /><br />
+				And if it is from a focus customer it gets a high priority.
+			</p>
+			</section>
+
+			<section class="fit-screen">
+				<iframe width="100%" height="100%" data-src="https://rally1.rallydev.com/#/7811801362d/dashboard"></iframe>
+			</section>
+
+			<section class="elk">
+			RALLY PROJECT <br /><br />
+
+			<p>
+			Fortunately, Rally makes all the data easily available to us through an API... <br /><br />
+
+			So we took all this data and made is searchable and presentable.
+			</p>
+			</section>
+
+			<section class="elk">
+			RALLY PROJECT <br /><br />
+
+			<p>Some interesting facts.</p>
+
+			<ul>
+				<li>450,000 user stories in rally since 2013</li>
+				<li>30,000 salesforce tickets</li>
+			</ul>
+
+			</section>
+
+			<section class="elk">
+			RALLY PROJECT <br /><br />
+
+			<p>What tools did we use?</p>
+
+			<ul>
+				<li><div class="tag">ElasticSearch</div> the database</li>
+				<li><div class="tag">Logstash</div> to import the data</li>
+				<li><div class="tag">Kibana</div> to make nice graphs</li>
+			</ul>
+
+			<p>Toghether they are called the ELK stack.</p>
+			</section>
+
+			<section class="fit-screen">
+				<iframe width="100%" height="100%" data-src="https://rally1.rallydev.com/#/7811801362d/dashboard"></iframe>
+			</section>
+
+			<section class="elk">
+			LATEST PROJECT<br /><br />
+
+			Creating a simplified user interface for the customer support dashboard...
+
+			</section>
+
+			<section>
+			WHAT I LEARNED THIS SUMMER <br />
+
+			<p>
+			Elastic, Kibana and Logstash <br />
+
+			Chatbot platforms & their inner workings. <br />
+
+			Agile development. <br /><br />
+
+			Improved in countless areas: 
+			<ul class="compact-list">
+				<li>Programming practices:
+					<ul>
+						<li>Documentation</li>
+						<li>Testing</li>
+						<li>Logging</li>
+						<li>Version control</li>
+					</ul>
+				</li>
+				<li>Knowledge of AngularJS</li>
+				<li>Learned the latest Javascript features</li>
+				<li>Deployment with Ansible</li>
+			</ul>
+			</p>
+			</section>
+
+			<section>
+			KEY TAKEAWAYS<br /><br />
+
+			<p>
+			Don't try to get it perfect, do what solves your problem.<br /><br />
+
+			Always ask questions.
+			</p>
+
+			</section>
+
+			<section id="outro">
+				Big shoutout to Raj & Noel.
+			</section>
 		</div>
 	</div>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/js/reveal.min.js"></script>
+	<aside id="library">
+		<img src="images/big-glow.png" id="big-glow" />
+		<img src="images/small-glow.png" id="small-glow" />
+	</aside>
+
+
 	<script>
-		Reveal.initialize();
+	// Fix for reveal.js
+	less = { async: true };
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/js/reveal.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
+	<script src="js/fireworks.js"></script>
+	<script>
+		var introConfig = {
+			width: "100%",
+    		height: "100%",
+			center: false,
+			margin: 0,
+			transition: "default",
+			viewDistance: 3,
+			history: true
+		};
+
+		var slideConfig = {
+			width: 1000,
+			height: 800,
+			center: false,
+			margin: 0.05,
+			transition: "default",
+			viewDistance: 3,
+			history: true
+		};
+
+		Reveal.initialize(introConfig);
+
+		Reveal.addEventListener( 'slidechanged', function( event ) {
+			// console.log(event.previousSlide, event.currentSlide, event.indexh, event.indexv);
+
+			if (event.indexh == 0) {
+				Reveal.configure(introConfig);
+			} else {
+				Reveal.configure(slideConfig);
+			}
+
+			if (event.currentSlide.className.indexOf("fit-screen") != -1) {
+				Reveal.configure(introConfig);
+			}
+
+			if (Reveal.isLastSlide()) {
+				Fireworks.initialize();
+			}
+		});
 	</script>
 
 </body>
